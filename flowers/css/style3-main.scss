@@ -8,7 +8,7 @@
   background-size: cover;
   position: relative;
   //min-height: 960px;
-  min-height: 100vh;
+  height: 100vh;
   &__text{
    // padding: 117px 0 100px 0;
     padding-top: calc(30px + 87 * (100vw - 400px) / 1920);
@@ -75,7 +75,7 @@ margin-bottom: 20px;
 
 @media (max-width: 1280px){
   .main{
-    min-height: 720px;
+    height: 720px;
   }
   }
 
